@@ -3,16 +3,14 @@
 ## Overview
 This project implements a generic REST API for performing CRUD (Create, Read, Update, Delete) operations on a SQL database using JavaScript and Node.js. The API dynamically builds and validates the database schema based on a provided JSON schema file. It supports multiple tables and data types.
 
-### Technical Requirements
+
 - Create, Read, Update, and Delete SQL statements map to the following API endpoints:
   - `POST /:collection`
   - `GET /:collection/:id`
   - `POST /:collection/:id`
   - `DELETE /:collection/:id`
 
-- The project checks for the existence of tables specified in the schema and creates/adds columns if not detected.
 
-- The database can be a local SQLite instance or can be defined using a Dockerfile.
 
 ## Project Structure
 The project consists of the following components:
