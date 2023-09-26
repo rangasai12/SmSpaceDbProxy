@@ -30,7 +30,7 @@ The project consists of the following components:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your/repository.git
+    git clone https://github.com/rangasai12/SmSpaceDbProxy.git
     ```
 
 2. Install dependencies:
@@ -45,7 +45,7 @@ The project consists of the following components:
 4. Start the server:
 
     ```bash
-    npm start
+    node app.js
     ```
 
 5. The API will be accessible at `http://localhost:3001`.
@@ -92,3 +92,5 @@ docker build -t database-proxy .
 docker run -p 3001:3001 database-proxy
 
 ```
+
+
