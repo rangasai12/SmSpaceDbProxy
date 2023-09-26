@@ -93,4 +93,16 @@ docker run -p 3001:3001 database-proxy
 
 ```
 
+## Additional Changes for Concurrent Environment
+
+If the application is intended to run in a concurrent environment, such as handling multiple simultaneous requests from multiple clients, the following changes should be considered:
+
+
+1. **Thread Safety**: Ensure that your database access code and schema initialization code are thread-safe.
+
+2. **Concurrency Control**: Implement concurrency control mechanisms to prevent conflicts when multiple clients try to update the same records simultaneously.
+
+3. **Request Isolation**: Ensure that each incoming request is isolated from others to prevent interference between requests.
+
+4. **Rate Limiting**: Consider implementing rate limiting or throttling to prevent excessive requests from a single client.
 
