@@ -48,7 +48,7 @@ The project consists of the following components:
     node app.js
     ```
 
-5. The API will be accessible at `http://localhost:3001`.
+5. The API will be accessible at `http://localhost:3001/collection`.
 
 ## API Endpoints
 
