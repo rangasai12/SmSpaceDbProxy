@@ -1,0 +1,13 @@
+{
+    "users": {
+      "id": "INTEGER PRIMARY KEY",
+      "name": "TEXT NOT NULL",
+      "email": "TEXT UNIQUE"
+    },
+    "comments": {
+        "id": "INTEGER PRIMARY KEY",
+        "content": "TEXT",
+        "user_id": "INTEGER"
+    }
+  }
+  

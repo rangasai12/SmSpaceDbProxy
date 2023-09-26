@@ -1,0 +1,5 @@
+# Node.js dependencies
+/node_modules
+
+# SQLite database file (if you want to exclude it)
+/server/database.sqlite3
